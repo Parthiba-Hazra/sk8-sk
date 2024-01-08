@@ -1,0 +1,26 @@
+import React from 'react';
+import TaskComponent from './components/TaskComponent';
+import {Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+
+
+function App() {
+  return (
+    // <div className="App">
+    //   <header className="App-header">
+    //     <TaskComponent />
+    //   </header>
+    // </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+       </Routes>
+    </>
+  );
+}
+
+export default App;

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-image.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    opacity: 0.5; /* Adjust opacity as needed */
+    z-index: -1;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  
+  .connect-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #4CAF50;
+  }
+  
